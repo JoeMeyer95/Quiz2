@@ -176,13 +176,6 @@ void College::save(std::ostream& outs){
 	}
 }
 
-
-/*
-*
-* Loading in the information-
-* Used for the Quiz2 that uses Doxygen
-*
-*/
 void College::load(std::istream& ins){
 	course tmp;
 	ins >> tmp;
